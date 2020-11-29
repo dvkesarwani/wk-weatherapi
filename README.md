@@ -1,4 +1,4 @@
-                                    <b>Weather API</b>
+                                    Weather API
 
 
 Develop a simple Laravel application using best practices that calculates the average temperature forecast of a city. 
