@@ -2003,7 +2003,7 @@ __webpack_require__.r(__webpack_exports__);
     fetchData: function fetchData() {
       var _this2 = this;
 
-      fetch("https://api.weatherbit.io/v2.0/forecast/daily?city=".concat(this.location.city, ",").concat(this.location.country, "&days=11&key=2d4d094ac0994b429a3703a313b7177c")).then(function (response) {
+      fetch("/api/weather?city=".concat(this.location.city, ",").concat(this.location.country)).then(function (response) {
         return response.json();
       }).then(function (data) {
         _this2.currentTemperature.actual = Math.round(data.data[0].temp);
@@ -37615,7 +37615,7 @@ var render = function() {
     _c("div", { staticClass: "shadow-lg w-11/12 mx-auto md:w-6/12" }, [
       _vm._m(0),
       _vm._v(" "),
-      _c("div", { staticClass: " bg-gray-900 py-6 rounded-b-lg" }, [
+      _c("div", { staticClass: " bg-gray-900 py-6" }, [
         _c("div", { staticClass: "flex items-center justify-between" }, [
           _c(
             "div",

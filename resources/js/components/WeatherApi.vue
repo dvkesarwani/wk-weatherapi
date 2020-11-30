@@ -8,7 +8,7 @@
                     <p class="text-gray-500 mt-3">Selected: <strong id="address-value">none</strong></p>
                 </div> 
             </div>
-            <div class=" bg-gray-900 py-6 rounded-b-lg">
+            <div class=" bg-gray-900 py-6">
                 <div class="flex items-center justify-between">
                     <div class="flex items-center justify-start mx-6 w-1/4">
                         <div class="text-5xl text-gray-500 font-bold sm:text-6xl">{{currentTemperature.actual}}<sup>o</sup>C</div>
@@ -94,7 +94,7 @@
         
          methods: {
           fetchData() {
-          fetch(`https://api.weatherbit.io/v2.0/forecast/daily?city=${this.location.city},${this.location.country}&days=11&key=2d4d094ac0994b429a3703a313b7177c`)
+          fetch(`/api/weather?city=${this.location.city},${this.location.country}`)
           .then(response => response.json())
           .then(data => { 
           this.currentTemperature.actual = Math.round(data.data[0].temp)

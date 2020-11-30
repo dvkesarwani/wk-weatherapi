@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5e3adb0ace9eeed4c5610ed74967a616",
+    "content-hash": "8890a3d461d415d53c87c076dea8f78f",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1813,6 +1813,54 @@
                 }
             ],
             "time": "2020-07-20T17:29:33+00:00"
+        },
+        {
+            "name": "pixnet/laravel-memcached-view",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pixnet/laravel-memcached-view.git",
+                "reference": "a0ff6d7f3f241bc8dd99295cf33e8bf7b4a00ec0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pixnet/laravel-memcached-view/zipball/a0ff6d7f3f241bc8dd99295cf33e8bf7b4a00ec0",
+                "reference": "a0ff6d7f3f241bc8dd99295cf33e8bf7b4a00ec0",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": ">5.2",
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PIXNET\\MemcachedView\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tech",
+                    "email": "tech@pixnet.tw"
+                }
+            ],
+            "description": "This is a package for laravel 5 to replace filesystem with memcached for view",
+            "keywords": [
+                "laravel",
+                "memcached",
+                "replace file cache",
+                "view",
+                "view cache"
+            ],
+            "support": {
+                "issues": "https://github.com/pixnet/laravel-memcached-view/issues",
+                "source": "https://github.com/pixnet/laravel-memcached-view/tree/master"
+            },
+            "time": "2017-03-02T08:41:15+00:00"
         },
         {
             "name": "psr/container",

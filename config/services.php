@@ -31,7 +31,8 @@ return [
     ],
 
     'weatherbit' => [
-        'key' => env('WEATHERBIT_KEY'),        
+        'key' => env('WEATHERBIT_KEY'),    
+        'provider' => env('WEATHERBIT_PROVIDER'),  
     ],
 
 ];
