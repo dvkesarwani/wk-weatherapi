@@ -41,4 +41,8 @@ npm run watch
 
 php artisan test
 
+![TestResult](test_result.jpg?raw=true "Test")
+
 open browser 127.0.0.1:8000
+
+![BrowserView](browser_view.jpg?raw=true "Weather Forecast")
