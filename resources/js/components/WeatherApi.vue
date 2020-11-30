@@ -2,7 +2,7 @@
     <div class="container mx-auto">
         <div class="shadow-lg w-11/12 mx-auto md:w-6/12">
             <div class=" bg-gray-800 rounded-t-lg mt-20">
-                <h1 class="text-center pt-5 font-bold text-4xl text-gray-400">Weather API</h1>
+                <h1 class="text-center pt-5 font-bold text-4xl text-gray-400">Weather Forecast</h1>
                 <div class="w-11/12 mx-auto py-5">
                     <input type="search" id="address" class="form-control form-control bg-white focus:outline-none focus:shadow-lg focus:border-w-2 focus:border-teal-500 rounded-lg py-2 px-4 block w-full appearance-none leading-normal" placeholder="Where are we going?" />
                     <p class="text-gray-500 mt-3">Selected: <strong id="address-value">none</strong></p>
