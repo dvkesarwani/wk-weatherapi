@@ -7,7 +7,7 @@ Develop a simple Laravel application using best practices that calculates the av
 - If someone tries to calculate the average temperature of a city that has already been calculated the results should be returned from the cache. After two hours the cache should be updated.
 
 
-Technologies Used:
+------------------------------Technologies Used:
 
 Laravel 8
 
@@ -17,6 +17,28 @@ Tailwindcss
 
 Laravel Mix
 
-Angolia Places APi
+Angolia Places API
 
 WeatherBit API
+
+--------------------------- setup environment and running the app
+
+composer global require laravel/installer
+
+laravel new wk_weatherapi
+
+composer update
+
+composer require laravel/ui
+
+php artisan ui vue
+
+npm install
+
+npm run dev
+
+npm run watch
+
+php artisan test
+
+open browser 127.0.0.1:8000
