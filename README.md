@@ -39,8 +39,8 @@ npm run dev
 
 npm run watch
 
-![TestResult](/test_result.jpg?raw=true "Test")
+![TestResult](/test-result.png?raw=true "Test")
 
 open browser 127.0.0.1:8000
 
-![BrowserView](/browser_view.jpg?raw=true "Weather Forecast")
+![BrowserView](/browser_view.png?raw=true "Weather Forecast")
